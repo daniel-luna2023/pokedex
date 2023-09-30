@@ -1,0 +1,38 @@
+.footer_home1 {
+  height: 3.7rem;
+  background-color: red;
+ position: relative;
+}
+
+.footer_home2 {
+  height: 3.2rem;
+  background-color: black;
+  position: relative;
+}
+
+.footer_home2_ball {
+  height: 5rem;
+  background-color: white;
+  aspect-ratio: 1/1;
+   border-radius: 9999px;
+  position: absolute;
+  left: 50%;
+  transform: matrix(-50%);
+  top: -2.5rem;
+ border: 8px solid black;
+  
+}
+
+
+.footer_home1_ball {
+  height: 2rem;
+  background-color: greenyellow;
+  aspect-ratio: 1/1;
+   border-radius: 9999px;
+  position: absolute;
+  left: 50%;
+  transform: matrix(-50%);
+  top: 0.5rem;
+ border: 8px solid black;
+ z-index: inherit;
+}

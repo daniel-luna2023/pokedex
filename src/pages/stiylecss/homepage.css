@@ -1,0 +1,19 @@
+.home_page {
+ 
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.home_page_h1 {
+  color: red;
+}
+
+.home_article {
+  justify-items: center;
+}
+
+.home_page_img {
+  width: 350px;
+  
+}
