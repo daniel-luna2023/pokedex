@@ -34,7 +34,7 @@ const PokedexPage = () => {
 
   return (
     <div>
-      <p>Hi {trainer}</p>
+      <p>Welcome {trainer}, aqui podras encontrar tu pokemon favorito</p>
       <form onSubmit={handleSearch}>
         <input ref={inputSearch} type="text" />
         <button>Search</button>

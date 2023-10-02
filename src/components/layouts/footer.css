@@ -11,28 +11,20 @@
 }
 
 .footer_home2_ball {
+  left: 47%;
   height: 5rem;
   background-color: white;
   aspect-ratio: 1/1;
    border-radius: 9999px;
   position: absolute;
-  left: 50%;
-  transform: matrix(-50%);
   top: -2.5rem;
  border: 8px solid black;
   
 }
 
-
-.footer_home1_ball {
-  height: 2rem;
-  background-color: greenyellow;
-  aspect-ratio: 1/1;
-   border-radius: 9999px;
+ .footer_img{
+  left: 47.6%;
+  height: 65px;
   position: absolute;
-  left: 50%;
-  transform: matrix(-50%);
-  top: 0.5rem;
- border: 8px solid black;
- z-index: inherit;
+  top: -2rem;
 }

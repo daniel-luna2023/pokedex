@@ -22,17 +22,17 @@ const HomePages = () => {
 
   return (
     <main className="home_page">
-      <section>
+      <section className="home_container">
         <article className="home_article">
           <div className="home_page_img">
             <img src="/images/front.png" alt="" />
           </div>
           <div>
-          <h2 className="home_title">Hi Trainer</h2>
+          <h2 className="home_title">¡Hi Trainer!</h2>
           </div>
-           <p>To start, please, give your trainer name</p>
-          <form onSubmit={handleTrainer}>
-            <input ref={inputTrainer} type="text" />
+           <p>To start, please, give me your name</p>
+          <form className="home_input" onSubmit={handleTrainer}>
+            <input ref={inputTrainer} type="text" placeholder="You Name..." />
             <button>Start!</button>
           </form>
         </article>
