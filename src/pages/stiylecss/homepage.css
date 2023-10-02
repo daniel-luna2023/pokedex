@@ -1,19 +1,56 @@
 .home_page {
- 
-  min-height: 100vh;
   display: grid;
   grid-template-rows: 1fr auto;
+  min-height: max-content;
+  height: 100vh;
 }
 
-.home_page_h1 {
-  color: red;
+.home_container {
+  background-color: #fcfcfc;
 }
 
 .home_article {
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  width: max-content;
+  margin: auto;
+  margin-top: 100px;
+  left: 50%;
 }
 
-.home_page_img {
-  width: 350px;
-  
+.home_page_img img {
+  width: 500px;
+  margin-bottom: 50px;
 }
+
+.home_title {
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.home_input {
+  margin-top: 50px;
+}
+
+.home_input button {
+  width: 8.5em;
+  height: 3.5em;
+  background-color: #e05454;
+  color: #fff;
+}
+
+.home_page input {
+  width: 24rem;
+  height: 3.5em;
+  border: none;
+  box-shadow: -1px 5px 10px 1px #d3d3d3;
+  padding: 10px;
+}
+
+input::placeholder {
+  color: #d3d3d3;
+}
+
+
