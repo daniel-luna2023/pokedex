@@ -37,7 +37,10 @@ const HomePages = () => {
           </form>
         </article>
       </section>
-      <FooterPokeball />
+      <div>
+        <img src="/images/pi-pag.png" alt="" class="imagen"/>
+      </div> <br />
+      
     </main>
   );
 };

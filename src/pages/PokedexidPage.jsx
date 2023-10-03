@@ -23,7 +23,10 @@ const PokedexidPage = () => {
   console.log(pokemon)
 
   return (
-    <div>
+    <div class="columna">
+      <div className="iamgen">
+        <img src="/images/enc-pag.png" alt="" class="imagen"/>
+      </div>
       <div>
         <button onClick={gotoback}>go to back</button>
       </div>

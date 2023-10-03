@@ -1,0 +1,48 @@
+body, .list-buz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+.contenedor {
+    column-count: 4; 
+    column-gap: 5px; 
+    list-style: none;
+    padding: 0;
+    break-inside: avoid; 
+  }
+
+input{
+    width: 40%;
+    height: 30px;
+}
+
+button{
+    width: 10%;
+    height: 30px;
+    background-color: rgb(228, 44, 44);
+}
+.buton-list{
+    width: 20%;
+}
+
+.list-buz{
+    column-count: 2;
+    column-gap: 10px;
+}
+
+.imagen{
+  width: 100%;
+ }  
+  
+.columna {
+   margin-bottom: 10px; 
+   break-inside: avoid; 
+   padding: 10px;
+   border: 1px solid #ccc;
+ }
+.color-name{
+    color: red;
+ }
+  

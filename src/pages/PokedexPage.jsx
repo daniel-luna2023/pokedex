@@ -33,16 +33,20 @@ const PokedexPage = () => {
  const pokeFilter = pokemons?.results.filter(poke => poke.name.includes(inputValue))
 
   return (
+    
     <div>
-      <p>Welcome {trainer}, aqui podras encontrar tu pokemon favorito</p>
-      <form onSubmit={handleSearch}>
+      <div className="iamgen">
+        <img src="/images/enc-pag.png" alt="" class="imagen"/>
+      </div>
+      <p> <span className="color-name">Welcome {trainer}</span> , aqui podras encontrar tu pokemon favorito</p> <br />
+      <form className="list-buz" onSubmit={handleSearch}>
         <input ref={inputSearch} type="text" />
         <button>Search</button>
-      </form>
-      <SelectType 
-        setTypeSelected={setTypeSelected}
-      />
-      <div >
+        <SelectType 
+          setTypeSelected={setTypeSelected}
+        />
+      </form> <br />
+      <div class='contenedor'>
         {pokeFilter?.map((poke) => (
           <PokeCard key={poke.url} url={poke.url} />
         ))}
