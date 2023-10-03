@@ -42,7 +42,7 @@ const PokedexPage = () => {
       <SelectType 
         setTypeSelected={setTypeSelected}
       />
-      <div>
+      <div >
         {pokeFilter?.map((poke) => (
           <PokeCard key={poke.url} url={poke.url} />
         ))}

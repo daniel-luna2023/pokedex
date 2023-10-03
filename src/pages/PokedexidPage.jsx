@@ -1,13 +1,14 @@
 import React, { useEffect } from 'react'
 import useFetch from '../hooks/useFetch'
-import { useParams } from 'react-router-dom'
+import { Navigate, useNavigate, useParams } from 'react-router-dom'
 
 
 
 const PokedexidPage = () => {
 
-  const { id } = useParams()
+  const navir =  useNavigate()
 
+  const { id } = useParams()
   const url = `https://pokeapi.co/api/v2/pokemon/${id}`
   const [ pokemon, getpokemon] = useFetch(url)
 
@@ -15,8 +16,17 @@ const PokedexidPage = () => {
     getpokemon()
   }, [id])
 
+  const gotoback = () => {
+    navir("/pokedex")
+  }
+
+  console.log(pokemon)
+
   return (
     <div>
+      <div>
+        <button onClick={gotoback}>go to back</button>
+      </div>
       <img src={pokemon?.sprites.other['official-artwork'].front_default} alt="" />
       <h2>{pokemon?.name}</h2>
     </div>
