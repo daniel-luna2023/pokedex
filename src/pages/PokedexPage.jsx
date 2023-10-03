@@ -40,7 +40,7 @@ const PokedexPage = () => {
       </div>
       <p> <span className="color-name">Welcome {trainer}</span> , aqui podras encontrar tu pokemon favorito</p> <br />
       <form className="list-buz" onSubmit={handleSearch}>
-        <input ref={inputSearch} type="text" />
+        <input ref={inputSearch} type="text" placeholder="Search a Pokemon" />
         <button>Search</button>
         <SelectType 
           setTypeSelected={setTypeSelected}

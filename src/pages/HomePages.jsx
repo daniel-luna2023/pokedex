@@ -38,9 +38,8 @@ const HomePages = () => {
         </article>
       </section>
       <div>
-        <img src="/images/pi-pag.png" alt="" class="imagen"/>
-      </div> <br />
-      
+        <img src="/images/pi-pag.png" alt="footer_img" class="imagen"/>
+      </div>
     </main>
   );
 };

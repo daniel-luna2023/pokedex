@@ -1,0 +1,12 @@
+.selector_container {
+    margin-left: 20px;
+}
+
+.selector_container select {
+    width: 24rem;
+    height: 3.5em;
+    border: none;
+    box-shadow: -1px 5px 10px 1px #d3d3d3;
+    padding: 10px;
+    cursor: pointer;
+}
