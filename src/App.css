@@ -6,6 +6,10 @@ body, .list-buz{
   }
   
 .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
     column-count: 4; 
     column-gap: 5px; 
     list-style: none;
@@ -14,14 +18,23 @@ body, .list-buz{
   }
 
 input{
-    width: 40%;
-    height: 30px;
+  width: 24rem;
+  height: 3.5em;
+  border: none;
+  box-shadow: -1px 5px 10px 1px #d3d3d3;
+  padding: 10px;
+    /* width: 40%;
+    height: 30px; */
 }
 
 button{
-    width: 10%;
+  width: 8.5em;
+  height: 3.5em;
+  background-color: #ee4646;
+  color: #fff;
+    /* width: 10%;
     height: 30px;
-    background-color: rgb(228, 44, 44);
+    background-color: rgb(228, 44, 44); */
 }
 .buton-list{
     width: 20%;
@@ -29,7 +42,7 @@ button{
 
 .list-buz{
     column-count: 2;
-    column-gap: 10px;
+    /* column-gap: 10px; */
 }
 
 .imagen{
