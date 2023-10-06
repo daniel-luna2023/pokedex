@@ -39,7 +39,7 @@ const HomePages = () => {
       </section>
       <div>
         <img src="/images/pi-pag.png" alt="" class="imagen"/>
-      </div> <br />
+      </div>
       
     </main>
   );

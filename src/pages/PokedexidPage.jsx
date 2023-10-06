@@ -32,6 +32,20 @@ const PokedexidPage = () => {
       </div>
       <img src={pokemon?.sprites.other['official-artwork'].front_default} alt="" />
       <h2>{pokemon?.name}</h2>
+
+      <ul>
+        {
+          pokemon?.types.map(typeName => (
+            <li key={typeName.type.url}>
+              <span>{typeName.type.name}</span>
+            </li>
+          ))
+        }
+
+      </ul>
+
+
+
     </div>
   )
 }
